@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jframe"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Nicholas Orndorff", email = "norndorff@ucsd.edu"}]
+dependencies = [
+    'numpy',
+    'jax'
+    'matplotlib'
+]
+version = "1.0"
+
+[tool.setuptools]
+package-dir = {"" = "."}
